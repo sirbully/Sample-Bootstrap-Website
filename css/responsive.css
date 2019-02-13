@@ -1,0 +1,230 @@
+@media only screen and (max-width: 1199px){
+	.mainmenu li a {
+		padding: 5px 8px;
+	}
+	.mainmenu li a.action-btn {
+		margin-left: 30px;
+	}
+	.hero-area-content h1 {
+		font-size: 36px;
+	}
+	.counter-box p {
+		font-size: 18px;
+	}
+	.contact-address li {
+		margin-bottom: 25px;
+	}
+}
+@media only screen and (max-width: 991px){
+	.mainmenu {
+		display: none;
+	}
+	.mobile-menu,.slicknav_menu {
+		display: block;
+	}
+	.header {
+		padding: 15px 0;
+	}
+	.header.sticky {
+		padding: 8px 0;
+	}
+	ul.slicknav_nav {
+		position: absolute;
+		background: #fff;
+		right: 15px;
+		top: 100%;
+		z-index: 9;
+		border-bottom: 1px solid #ccc;
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		padding: 5px 10px 10px;
+		margin-top: 8px;
+	}
+	.slicknav_menu .slicknav_btn {
+		background-color: #1f1f1f !important;
+	}
+	.slicknav_menu .slicknav_menutxt {
+		display: none !important;
+	}
+	.slicknav_menu .slicknav_icon {
+		margin: 0 !important;
+	}
+	.slicknav_menu .slicknav_icon-bar {
+		background-color: #fbaf3c !important;
+	}
+	.slicknav_nav li a {
+		border: 1px solid transparent;
+		margin: 8px 3px 0;
+		color: #1f1f1f;
+		display: block;
+	}
+	.slicknav_nav a:hover {
+		background: transparent;
+		border-radius: 0;
+		border-top: 1px solid #1f1f1f;
+	}
+	.hero-area-content {
+		padding: 0 0 60px;
+	}
+	.hiker-img {
+		position: static;
+		margin-bottom: -2px;
+	}
+	.about-area {
+		padding-bottom: 65px;
+	}
+	.about-box {
+		padding-top: 10px;
+	}
+	.about-box:hover,.about-box.active {
+		box-shadow: none;
+	}
+	.about-box:hover i::before ,.about-box.active i::before {
+		color: #0074da;
+	}
+	.counter-box i::before {
+		width: 90px;
+		height: 90px;
+		line-height: 90px;
+		font-size: 35px;
+	}
+	.counter-box h1 {
+		font-size: 28px;
+	}
+	.counter-box p {
+		font-size: 16px;
+	}
+	.mountain-area .sec-title {
+		margin-bottom: 15px;
+	}
+	.subscribe-form {
+		margin: 30px 0;
+	}
+	.contact-address {
+		margin-top: 0;
+	}
+	.contact-address li .contact-address-info {
+		flex: 8;
+	}
+}
+@media only screen and (max-width: 767px){
+	.sec-title h2 {
+		font-size: 26px;
+	}
+	.hero-area-content {
+		padding-top: 0;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	.hero-area-content h1 {
+		font-size: 30px;
+	}
+	.hero-area-content p {
+		margin: 15px 0;
+	}
+	.counter-box p {
+		font-size: 18px;
+	}
+	.carousel-item h5 {
+		margin: 25px 0 10px;
+	}
+	.carousel-item p {
+		margin: 0 0 10px;
+	}
+	.more-about-box h4 {
+		line-height: normal;
+	}
+	.subscribe-form form button {
+		font-size: 16px;
+	}
+	.contact-form, .contact-address {
+		padding: 20px;
+	}
+	.contact-address li {
+		margin: 25px 0 0;
+	}
+	.contact-address li .contact-address-info {
+		margin-left: 12px;
+	}
+	.contact-address p {
+		margin-bottom: 0;
+		padding-top: 5px;
+	}
+	.contact-form button {
+		margin-bottom: 0;
+	}
+}
+@media only screen and (max-width: 576px){
+	.sec-title h2 {
+		font-size: 24px;
+	}
+	.mountain-area .sec-title {
+		margin-bottom: 40px;
+	}
+	.mountain-wrap {
+		max-width: 280px;
+		margin: 0 auto;
+	}
+	.mountain.slick-center {
+		background-image: none;
+	}
+	.mountain.slick-active,.mountain.slick-center {
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+	.mountain-wrap .slick-list {
+		padding-bottom: 0 !important;
+		padding-top: 0 !important;
+	}
+	.mountain.slick-center img {
+		padding: 0;
+	}
+	.slick-dots {
+		margin-top: 25px;
+	}
+	.subscribe-form form input {
+		width: 54%;
+		padding-right: 0;
+	}
+	.subscribe-form form button {
+		width: 46%;
+	}
+	.contact-address h4 {
+		margin-bottom: 5px;
+	}
+}
+@media only screen and (max-width: 420px){
+	.hero-area-content h1 {
+		font-size: 22px;
+	}
+	.hero-area-content .action-btn {
+		padding: 5px 18px;
+		margin-right: 5px;
+	}
+	.hero-area-content p {
+		margin-bottom: 5px;
+	}
+	.hero-area-content {
+		padding-bottom: 35px;
+	}
+	.hero-area {
+		padding-top: 130px;
+	}
+	.about-box {
+		padding: 5px 0 25px;
+	}
+	.more-about-box h4 {
+		font-size: 16px;
+	}
+	.subscribe-form {
+		margin-top: 10px;
+	}
+	.copyright-area ul li a {
+		margin: 0 1px;
+	}
+	textarea {
+		height: 80px;
+	}
+}
