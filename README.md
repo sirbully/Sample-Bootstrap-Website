@@ -1,6 +1,6 @@
 # Sample Website
 
-This site is a redesign of the site [Trail Adventours](http://trailadventours.com "Trail Adventours"). This will serve as my sample website to complete my job application for Lachance Design, LLC.
+This site is a redesign of the site [Trail Adventours](http://trailadventours.com "Trail Adventours"). This will serve as a sample website to showcase my web design skills
 
 ### Powered by the following front-end library/framework
 [![N|Solid](https://i.imgur.com/UAH2wdq.png)](https://jquery.com/)
